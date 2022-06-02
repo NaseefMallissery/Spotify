@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    background-color: rgb(41, 65, 171);
+    z-index: -1;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding-top: 5px;
+}
+.header .logo{
+    width: 50%;
+    height: 80px;
+    float: left;
+}
+.base{
+    height: 100%;
+    float: left;
+}
+.logo img{
+    position: absolute;
+    height: 48px;
+    width: 142px;
+    margin-top: 15px;
+    margin-left: 216px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 54px;
+    float: left;
+}   
+.navig{
+    margin-top: 25px;
+}
+.links .links_in:hover{
+    color:#1ed760;
+    transition: color 1sec
+    cubic-bezier(.25,1,.25,1);
+}
+.links_two a{
+    text-decoration: none;
+    color: #d9dadc;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 54px;
+}
+.links_two .links_in:hover{
+    color:#1ed760;
+    transition: color 1sec
+    cubic-bezier(.25,1,.25,1);
+}
+.main_body{
+    background-color: rgb(41, 65, 171);
+    height: 900px;
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.image{
+    position: absolute;
+    float: left;
+    margin-left: -339px;
+    margin-top: 125px;
+    
+}
+#one{
+    color: #1ed760;
+    font-weight: 900;
+    letter-spacing: -8px;
+    margin-top: 210px;
+    margin-left: 235px;
+    font-size: 140px;
+    line-height: 104px;
+    
+}
+#two{
+    position: relative;
+    color: #1ed760;
+    font-weight: 900;
+    letter-spacing: -8px;
+    margin-top: 46px;
+    margin-left: 555px;
+    font-size: 140px;
+    line-height: 104px;
+    
+}
+.body_text{
+    color:  #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: normal;
+    margin-top: 95px;
+}
+
+.buttton{
+  align-items: center;
+  position: relative;
+}
+button{
+    border-radius: 100px;
+    border: 0px;
+    background-color:#1ed760 ;
+    height: 46px;
+    width: 180px;
+    color: rgb(41, 65, 171);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 950;
+    margin-left: 45%;
+    margin-top: 70px;
+    transform-origin: 0.3s;
+
+    
+}
+button:hover{
+     transform: scale(1.03);
+     background-color: #44da79;
+     cursor: pointer;
+
+}
+.footer{
+    position: absolute;
+    background-color: #000;
+    height:545px;
+    width: 100%;
+    margin-top: 900px;
+   
+}
+.footer_logo img{
+    height: 50px;
+    width: 120px;
+    margin-left: 250px;
+    margin-top: 53px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    text-decoration: none;
+    color:#d9dadc;
+    margin-top: 10px;
+}
+.ul1{
+    float: left;
+}
+.down{
+    padding-left: 100px;
+}
+.footer_links {
+    height: 450px;
+    padding-left: 340px;
+    padding-top: 67px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.headlines{
+    margin-bottom: 23px;
+}
+.ul2{
+    margin-left: 90px;
+    float: left;
+}
+.ul3{
+    margin-left:400px;
+
+}
+.icons{
+    width: 115px;
+    height: auto;
+    float: left;
+    margin-left: 1220px;
+    margin-top: -455px;
+}
+.icons img {
+   border-radius: 360;
+   width: 35px;
+    height: 35px;
+    background-color: #fff;
+
+}
+.icons_image{
+   background-color: white;
+}
+.icons_image:hover{
+    background-color: #1ed760;
+}
+.f_links:hover{
+    color: #1ed760;
+}
+.footer_nav .footer_navs{
+   text-align: left;
+   margin-left: -10000px;
+}
+.footer_navs{
+    margin-top: 50px;
+}
+.footer_navs a{
+    margin-left: 30px;
+    font-size: 12px;
+    color: #d9dadc;
+  
+}
+.ft:hover{
+    color: #1ed760;
+}
+
+.lang{
+    color: #d9dadc;
+    margin-top: -57px;
+    font-size: 10px;
+    margin-left: 1378px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#p{
+    color: #d9dadc;
+}
+.lang:hover p{
+    color: #1ed760;
+
+}
+.second_text{
+    color: #d9dadc;
+    margin-top: 6px;
+    font-size: 11px;
+    margin-left: 1378px;
+}
